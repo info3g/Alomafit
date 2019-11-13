@@ -1,0 +1,19 @@
+Important Note:
+
+  meet10.myshopify.com, please do not enter the dashboard because it will change
+  the scopes "permissions", I need listing, write products to do the stores test cases.
+
+Testing:
+
+  I'm testing on meet10.myshopify.com, if someone enter the dashboard accidentally
+  reinstall the app with testing,debug being True
+
+
+
+
+SITE_ID: after reseting the database.
+go to the python manage.py shell
+  from django.contrib.sites.models import Site
+  Site.objects.create(domain='alomafit.com',name='Alomafit.com')
+if you are using heroku then
+  heroku run python manage shell

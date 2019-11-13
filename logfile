@@ -1,0 +1,4 @@
+2018-02-06 15:57:17.920 EET [17784] LOG:  listening on IPv6 address "::", port 5432
+2018-02-06 15:57:17.921 EET [17784] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2018-02-06 15:57:17.993 EET [17784] LOG:  redirecting log output to logging collector process
+2018-02-06 15:57:17.993 EET [17784] HINT:  Future log output will appear in directory "log".

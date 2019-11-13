@@ -1,0 +1,38 @@
+variants belongs to an ordered list, to define lower/upper best fit
+Input :
+   product attributes:
+    TODO
+      1) what do u mean by `...` is there additional item in the set?
+      2) international what?, please provide the complete set, the uk also.
+		- sizes : list of size , [xs,s,m,l,xl,xxl,xxxl...] international,[4,6,8,....] uk  or any size type
+    TODO
+      1) for male and female, please provide ranges for each attribute chest,waist,hips
+		- chests or busts : list of bust measure for each product size
+		- waists :  list of waist measure for each product size
+		- hips:  list of hip measure for each product size
+
+		- fit_type : takes value from this list [Close-Fitting or closefit,
+													Fitted or fitted,
+													Semi-Fitted or semifit,
+													Loose-Fitting or loosefit,
+													Very Loose-Fitting or veryloosefit,
+													Combination or tailordfit]
+        -stretch : [ stretch or nonestretch]
+		-type : ["dress", "top", "shirts", "vest", "blous", "pant", "short" ,"culott","skirt",
+               "hoodies & sweatshirts","sweaters & cardigans","t-shirts","trousers","jeans","blazer"
+               ,"jumpsuits","jacket","coats"]
+	profile :
+      TODO: Please provide ranges for male and female
+	    - shoulder measure
+	    - bust measure
+		- waist measure
+		- hip measure
+		- gender
+output :
+   - top size  [xs,s,m,l,xl,xxl,xxxl...] international,[4,6,8,....] uk  or any size type
+   - bottom_size  [xs,s,m,l,xl,xxl,xxxl...] international,[4,6,8,....] uk  or any size type
+   - bestfit:   [xs,s,m,l,xl,xxl,xxxl...] international,[4,6,8,....] uk  or any size type
+   -shoulder_stress:  [well fit,slightly loose,very loose,slightly tight, very tight]
+   -bust_stress:   [well fit,slightly loose,very loose,slightly tight, very tight]
+   -waist_stress:   [well fit,slightly loose,very loose,slightly tight, very tight]
+   -hips_stress:     [well fit,slightly loose,very loose,slightly tight, very tight]
